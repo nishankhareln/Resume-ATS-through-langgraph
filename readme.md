@@ -3,36 +3,33 @@ Five-Node LangGraph Workflow:
 
 a.Enhance Summary Node ✍️
 
-Creates compelling professional summary
-Incorporates ATS feedback
-Adds missing keywords naturally
+--Creates compelling professional summary
+--Incorporates ATS feedback
+--Adds missing keywords naturally
 
 
-Enhance Experience Node 💼
+b.Enhance Experience Node 💼
 
-Rewrites bullets with action verbs
-Adds quantifiable achievements
-Incorporates missing keywords
+--Rewrites bullets with action verbs
+--Adds quantifiable achievements
+--Incorporates missing keywords
 
+c.Enhance Skills Node 🛠️
 
-Enhance Skills Node 🛠️
+--Organizes into categories (Technical, Soft, Tools)
+--Adds ATS missing keywords
+--Prioritizes relevant skills
 
-Organizes into categories (Technical, Soft, Tools)
-Adds ATS missing keywords
-Prioritizes relevant skills
+d.Enhance Education Node 🎓
 
+--Standardizes formatting
+--Adds relevant details
+--Makes ATS-friendly
 
-Enhance Education Node 🎓
+e.Compile Resume Node 📋
 
-Standardizes formatting
-Adds relevant details
-Makes ATS-friendly
-
-
-Compile Resume Node 📋
-
-Combines all enhanced sections
-Adds metadata about improvements
+--Combines all enhanced sections
+--Adds metadata about improvements
 --------------------------------------------------------------------------------
 # 🚀 AI Resume Enhancement System
 
