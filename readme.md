@@ -1,51 +1,51 @@
 ---What This Enhancer Agent Does:
 Five-Node LangGraph Workflow:
 
-a.Enhance Summary Node ✍️
+a.Enhance Summary Node 
 
 --Creates compelling professional summary
 --Incorporates ATS feedback
 --Adds missing keywords naturally
 
 
-b.Enhance Experience Node 💼
+b.Enhance Experience Node 
 
 --Rewrites bullets with action verbs
 --Adds quantifiable achievements
 --Incorporates missing keywords
 
-c.Enhance Skills Node 🛠️
+c.Enhance Skills Node 
 
 --Organizes into categories (Technical, Soft, Tools)
 --Adds ATS missing keywords
 --Prioritizes relevant skills
 
-d.Enhance Education Node 🎓
+d.Enhance Education Node 
 
 --Standardizes formatting
 --Adds relevant details
 --Makes ATS-friendly
 
-e.Compile Resume Node 📋
+e.Compile Resume Node 
 
 --Combines all enhanced sections
 --Adds metadata about improvements
 --------------------------------------------------------------------------------
-# 🚀 AI Resume Enhancement System
+#  AI Resume Enhancement System
 
 An intelligent resume analysis and enhancement system powered by LangGraph and AI agents. This system extracts, analyzes, enhances, and generates professional resumes with ATS optimization.
 
-## ✨ Features
+##  Features
 
-- 📄 **PDF Text Extraction** - Extract text from resume PDFs
-- 🤖 **AI Resume Classification** - Automatically detect if document is a resume
-- 📊 **Structured Data Extraction** - Extract structured information (name, email, experience, skills, etc.)
-- 🎯 **ATS Compatibility Analysis** - Get detailed ATS score and improvement suggestions
-- ✍️ **AI-Powered Enhancement** - Automatically improve resume content with AI
-- 📝 **Professional PDF Generation** - Create beautifully formatted resume PDFs
-- 💾 **Database Storage** - Store all resume versions and analysis results
+-  **PDF Text Extraction** - Extract text from resume PDFs
+-  **AI Resume Classification** - Automatically detect if document is a resume
+-  **Structured Data Extraction** - Extract structured information (name, email, experience, skills, etc.)
+-  **ATS Compatibility Analysis** - Get detailed ATS score and improvement suggestions
+-  **AI-Powered Enhancement** - Automatically improve resume content with AI
+-  **Professional PDF Generation** - Create beautifully formatted resume PDFs
+-  **Database Storage** - Store all resume versions and analysis results
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -69,7 +69,7 @@ An intelligent resume analysis and enhancement system powered by LangGraph and A
                     └───────────────────┘
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 langgraph_project/
@@ -90,7 +90,7 @@ langgraph_project/
 └── README.md                 # This file
 ```
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Prerequisites
 
@@ -146,7 +146,7 @@ CREATE TABLE resumes (
 );
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -166,42 +166,42 @@ Follow the interactive prompts:
 ### Example Session
 
 ```bash
-🚀 AI Resume Enhancement System
+ AI Resume Enhancement System
 ============================================================
 
-📂 Enter PDF file path: my_resume.pdf
+ Enter PDF file path: my_resume.pdf
 
-⏳ Extracting text from PDF...
-✅ Text extraction complete
+ Extracting text from PDF...
+ Text extraction complete
 
-⏳ Checking if document is a resume...
-✅ Confirmed: This is a resume
+ Checking if document is a resume...
+ Confirmed: This is a resume
 
-⏳ Extracting structured data from resume...
-✅ Structured extraction complete
+Extracting structured data from resume...
+Structured extraction complete
 
-⏳ Running ATS compatibility analysis...
-✅ ATS analysis complete
+ Running ATS compatibility analysis...
+ ATS analysis complete
 
 ============================================================
-📊 ATS COMPATIBILITY REPORT
+ ATS COMPATIBILITY REPORT
 ============================================================
-🎯 Score: 65/100 - Good - Moderate ATS Compatibility
+ Score: 65/100 - Good - Moderate ATS Compatibility
 
 Would you like to enhance your resume based on ATS feedback? (y/n): y
 
-⏳ Enhancing your resume with AI...
-✅ Resume enhancement complete!
+ Enhancing your resume with AI...
+ Resume enhancement complete!
 
 Would you like to generate a professional PDF? (y/n): y
 
-⏳ Generating professional PDF...
-✅ PDF generated: generated_resumes/John_Doe_Enhanced.pdf
+ Generating professional PDF...
+ PDF generated: generated_resumes/John_Doe_Enhanced.pdf
 
-🎉 Process complete!
+ Process complete!
 ```
 
-## 🤖 AI Agents
+##  AI Agents
 
 ### 1. Extractor Agent
 - **Purpose**: Extract structured data from resume text
@@ -226,7 +226,7 @@ Would you like to generate a professional PDF? (y/n): y
   5. Compile enhanced resume
 - **Output**: Enhanced resume JSON with improved content
 
-## 📊 Database Schema
+##  Database Schema
 
 ```sql
 resumes (
@@ -239,7 +239,7 @@ resumes (
 )
 ```
 
-## 🎨 PDF Generation Features
+##  PDF Generation Features
 
 The PDF generator creates professional resumes with:
 
@@ -249,7 +249,7 @@ The PDF generator creates professional resumes with:
 - Professional formatting
 - Timestamp footer
 
-## 🔧 Configuration
+##  Configuration
 
 ### Groq Models
 
@@ -263,7 +263,7 @@ model = ChatGroq(model="llama-3.1-8b-instant", temperature=0.7)
 
 Update `.env` file with your PostgreSQL credentials.
 
-## 📝 API Functions
+##  API Functions
 
 ### Main Functions
 
@@ -289,7 +289,7 @@ from utils.pdf_generator import generate_resume_pdf
 pdf_path = generate_resume_pdf(enhanced_resume, "output.pdf")
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Database Connection Issues
 
@@ -314,7 +314,7 @@ psql -h localhost -U your_user -d your_database
 pip install reportlab
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 
@@ -324,18 +324,18 @@ Contributions are welcome! Please:
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **LangGraph** - For the agent orchestration framework
 - **Groq** - For fast AI inference
 - **ReportLab** - For PDF generation
 - **PyMuPDF** - For PDF text extraction
 
-## 📞 Support
+##  Support
 
 For issues and questions:
 - Open an issue on GitHub
