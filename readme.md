@@ -343,4 +343,4 @@ For issues and questions:
 
 ---
 
-**Built with ❤️ using LangGraph and AI**
+**Built with  using LangGraph and AI**
